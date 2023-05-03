@@ -6,12 +6,15 @@ import Contact from "./pages/Contact/Contact";
 import Delivery from "./pages/Delivery/Delivery";
 import Registration from "./pages/Registration/Registration";
 import Reviews from "./pages/Reviews/Reviews";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-screen">
       
       <div className="">
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
@@ -21,6 +24,7 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/reviews" element={<Reviews />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
