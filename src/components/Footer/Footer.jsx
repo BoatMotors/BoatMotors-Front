@@ -5,6 +5,14 @@ import { footerCatalog, footerMenu } from "../../data";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const handleUp = () => {
+    window.scrollTo({
+      top: 1,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <>
       <div className="h-0.5 bg-LineBackground mt-14 mb-20 mx-36"></div>
@@ -53,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex items-center justify-between px-52 mt-24 bg-FooterBackground h-[105px]">
-            <button className="flex items-center gap-[18px] text-white text-registerBody">Наверх {icons.up}</button>
+            <button onClick={handleUp} className="flex items-center gap-[18px] text-white text-registerBody">Наверх {icons.up}</button>
             <span className="text-white text-registerBody">@Motorsboat, 2021</span>
         </div>
       </footer>

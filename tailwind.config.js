@@ -15,7 +15,8 @@ module.exports = {
       },
       backgroundColor: {
         LineBackground: '#A4A4A4',
-        FooterBackground: '#001420'
+        FooterBackground: '#001420',
+        ProductBackground: '#50626C',
       },
       fontSize: {
         homeHead: ['100px', {
@@ -43,6 +44,21 @@ module.exports = {
         footerSubText: ['20px', {
           fontWeight: '500'
         }],
+        ProductMenu: ['30px', {
+          fontWeight: '600'
+        }],
+        ProductSubInfo: ['20px', {
+          fontWeight: '400',
+          lineHeight: '23px'
+        }],
+        ProductInfo: ['30px', {
+          fontWeight: '700',
+          lineHeight: '36px'
+        }],
+        ProductButton: ['15px', {
+          fontWeight: '400',
+          lineHeight: '34px',
+        }],
       },
       fontFamily: {
         homeHeadText: ['Nordin Free', 'sans-serif'],
@@ -55,6 +71,12 @@ module.exports = {
       },
       height: {
         registerHeight: '50px'
+      },
+      borderRadius: {
+        '29': '29px'
+      },
+      dropShadow: {
+        BoatInfoBorder: '0px 0px 10px rgba(0, 0, 0, 0.25)',
       }
     },
   },
