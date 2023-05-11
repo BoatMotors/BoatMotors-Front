@@ -17,11 +17,16 @@ module.exports = {
         LineBackground: '#A4A4A4',
         FooterBackground: '#001420',
         ProductBackground: '#50626C',
+        SideBackground: 'rgba(255, 255, 255, 0.92)',
       },
       fontSize: {
         homeHead: ['100px', {
           fontWeight: '400',
           lineHeight: '60px',
+        }],
+        SidebarTitle: ['20px', {
+          fontWeight: '600',
+          lineHeight: '23px'
         }],
         homeSubHead: ['50px', {
           fontWeight: '400',
@@ -31,6 +36,7 @@ module.exports = {
         }],
         registerBody: ['18px', {
           fontWeight: '400',
+          lineHeight: '25px',
         }],
         registiration: ['40px', {
           fontWeight: '600',
@@ -55,6 +61,10 @@ module.exports = {
           fontWeight: '700',
           lineHeight: '36px'
         }],
+        ReviewsTitle: ['20px', {
+          fontWeight: '700',
+          lineHeight: '23px'
+        }],
         ProductButton: ['15px', {
           fontWeight: '400',
           lineHeight: '34px',
@@ -77,6 +87,7 @@ module.exports = {
       },
       dropShadow: {
         BoatInfoBorder: '0px 0px 10px rgba(0, 0, 0, 0.25)',
+        ReviewsBorder: '0px 0px 20px rgba(0, 0, 0, 0.25)',
       }
     },
   },

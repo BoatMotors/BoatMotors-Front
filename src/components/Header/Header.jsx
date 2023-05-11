@@ -9,7 +9,7 @@ const Header = () => {
       style={{ backgroundImage: `url(${headerImg})` }}
       className="w-screen h-screen bg-cover bg-no-repeat flex flex-col justify-end items-end"
     >
-        <div>
+        <div className="fixed top-0 z-10">
           <Navbar />
         </div>
       <div className="w-screen h-screen flex flex-col items-center justify-center">

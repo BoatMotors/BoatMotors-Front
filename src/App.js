@@ -5,7 +5,6 @@ import Basket from "./pages/Basket/Basket";
 import Contact from "./pages/Contact/Contact";
 import Delivery from "./pages/Delivery/Delivery";
 import Registration from "./pages/Registration/Registration";
-import Reviews from "./pages/Reviews/Reviews";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/registration" element={<Registration />} />
-          <Route path="/reviews" element={<Reviews />} />
         </Routes>
         <Footer />
       </div>

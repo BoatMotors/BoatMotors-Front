@@ -7,13 +7,13 @@ const Articles = () => {
     return (
         <section className='mt-[88px]'>
             <h2 className='text-registiration text-BoatBlack'>Статьи</h2>
-            <div className="flex justify-between px-5 mt-[117px]">
-                <div className="w-[565px] h-[333px] px-[50px] flex flex-col items-center bg-white rounded-29 drop-shadow-BoatInfoBorder relative pt-[123px]">
+            <div className="flex justify-between  mt-[117px]">
+                <div className="w-[585px] h-[333px] px-[50px] flex flex-col items-center bg-white rounded-29 drop-shadow-BoatInfoBorder relative pt-[123px]">
                     <img className='absolute -top-[67px]' src={Boat1} alt="Boat info" />
                     <h3 className='text-ProductInfo text-RegisterGray'>ГЛИССИРОВАНИЕ НАДУВНЫХ ЛОДОК И ВСЁ ЧТО НУЖНО ЗНАТЬ ОБ ЭТОМ</h3>
                     <p className='text-ProductSubInfo text-RegisterGray mt-3'>Глиссирование является одним из самых экономичных вариантов передвижения.....</p>
                 </div>
-                <div className="w-[565px] h-[333px] px-[50px] flex flex-col items-center bg-white rounded-29 drop-shadow-BoatInfoBorder relative pt-[123px]">
+                <div className="w-[585px] h-[333px] px-[50px] flex flex-col items-center bg-white rounded-29 drop-shadow-BoatInfoBorder relative pt-[123px]">
                     <img className='absolute -top-[100px]' src={Boat2} alt="Boat info" />
                     <h3 className='text-ProductInfo text-RegisterGray'>ГЛИССИРОВАНИЕ НАДУВНЫХ ЛОДОК И ВСЁ ЧТО НУЖНО ЗНАТЬ ОБ ЭТОМ</h3>
                     <p className='text-ProductSubInfo text-RegisterGray mt-3'>Глиссирование является одним из самых экономичных вариантов передвижения.....</p>
