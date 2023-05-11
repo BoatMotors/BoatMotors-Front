@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import headerImg from "../../Assets/img/BoatMoto.jpg";
 import { icons } from "../../icons";
 
-const Header = () => {
+const Header = ({BigTxt, SubTxt, fontStyle}) => {
   return (
     <div
       style={{ backgroundImage: `url(${headerImg})` }}
@@ -14,10 +14,10 @@ const Header = () => {
         </div>
       <div className="w-screen h-screen flex flex-col items-center justify-center">
         <div className="flex flex-col items-center">
-          <h1 className="text-homeHead font-homeHeadText text-white">
-            MOTORSBOAT
+          <h1 className={`text-homeHead font-homeHeadText text-white  text-9xl/[200px] ${fontStyle}`}>
+            {BigTxt ? BigTxt : "MOTORSBOAT"}
           </h1>
-          <h3 className="text-white text-homeSubHead">лодки & моторы</h3>
+          <h3 className="text-white text-homeSubHead mt-6">{SubTxt ? SubTxt : "лодки & моторы"}</h3>
           <button className="flex items-center gap-7 text-buttonText text-white border border-white py-4 px-10">
             Перейти в каталог {icons.arrow}
           </button>

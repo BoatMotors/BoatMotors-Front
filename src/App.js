@@ -14,7 +14,7 @@ function App() {
     <div className="App w-screen">
       
       <div className="">
-        <Header />
+        <Header BigTxt={'MOTORSBOAT'} SubTxt={'лодки & моторы'} fontStyle={'nordinRegular'} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/reviews" element={<Reviews />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
     </div>
   );

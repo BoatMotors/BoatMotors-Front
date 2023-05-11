@@ -7,3 +7,25 @@
 body {
     overflow-x: hidden;
 }
+
+@font-face {
+    font-family: "Nordin-Regular";
+    src: url("./Assets/fonts/nordin/Nordin Regular.otf");
+    src: url("./Assets/fonts/nordin/Nordin Regular.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nordin-Outline";
+    src: url("./Assets/fonts/nordin/Nordin Outline.ttf");
+    src: url("./Assets/fonts/nordin/Nordin Outline.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+.nordinRegular{
+    font-family: "Nordin-Regular";
+    font-size: 200px;
+}
+.gilroyRegular{
+    font-family: "Gilroy-Regular";
+}
