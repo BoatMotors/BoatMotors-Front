@@ -1,6 +1,5 @@
 import React from 'react';
 import { category } from '../../data';
-import boat from '../../Assets/img/Boat1.png'
 
 const Category = () => {
     return (

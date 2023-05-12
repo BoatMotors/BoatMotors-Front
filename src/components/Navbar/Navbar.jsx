@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import { icons } from "../../icons";
 import logo from "../../Assets/img/Logo.png";
 import Modal from "../Modal/Modal";
+import MenuModal from "../Modal/MenuModal";
+import Sidebar from "../Modal/Sidebar";
 
 const Navbar = () => {
 
   const [active, setActive] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <nav className="flex w-screen px-36 bg-NavBackground">
       <div className="flex items-center justify-between w-full">
-        <div className="">{icons.bars}</div>
+        <button onClick={() => setShowMenu(true)} className="">{icons.bars}</button>
+        {showMenu && <Sidebar setShowMenu={setShowMenu} />}
         <div className="flex items-center justify-between w-7/12">
           <img src={logo} alt="logo" />
           <div className="flex items-center gap-10">
