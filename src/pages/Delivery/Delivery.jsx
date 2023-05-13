@@ -4,6 +4,7 @@ import DeliverySDEK from "../../components/Delivery/DeliverySDEK";
 import FreeDelivery from "../../components/Delivery/FreeDelivery";
 import OwnDeliveryService from "../../components/Delivery/OwnDeliveryService";
 import PaymentForGoods from "../../components/Delivery/PaymentForGoods";
+import PaymentRequizit from "../../components/Delivery/PaymentRequizit";
 
 const Delivery = () => {
   return (
@@ -13,6 +14,7 @@ const Delivery = () => {
       <OwnDeliveryService />
       <DeliverySDEK />
       <PaymentForGoods />
+      <PaymentRequizit />
     </div>
   );
 };
