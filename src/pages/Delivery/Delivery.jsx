@@ -1,5 +1,6 @@
 import React from "react";
 import DeliveryPayment from "../../components/Delivery/DeliveryPayment";
+import DeliverySDEK from "../../components/Delivery/DeliverySDEK";
 import FreeDelivery from "../../components/Delivery/FreeDelivery";
 import OwnDeliveryService from "../../components/Delivery/OwnDeliveryService";
 
@@ -9,6 +10,7 @@ const Delivery = () => {
       <DeliveryPayment />
       <FreeDelivery />
       <OwnDeliveryService />
+      <DeliverySDEK />
     </div>
   );
 };
