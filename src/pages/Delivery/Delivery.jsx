@@ -8,6 +8,7 @@ const Delivery = () => {
       <div className="">Three</div>
       <div className="">Three</div>
       <div className="">Three</div>
+      <div className="">Three</div>
     </div>
   );
 };
