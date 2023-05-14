@@ -5,7 +5,6 @@ import Basket from "./pages/Basket/Basket";
 import Contact from "./pages/Contact/Contact";
 import Delivery from "./pages/Delivery/Delivery";
 import Registration from "./pages/Registration/Registration";
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
