@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./components/Navbar/Navbar";
 import ReviewPage from "./pages/Review";
 
+
 function App() {
   return (
     <div className="App w-screen">
@@ -19,7 +20,6 @@ function App() {
       <div className="fixed top-0 z-10">
           <Navbar />
         </div>
-        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/review" element={<ReviewPage />} />

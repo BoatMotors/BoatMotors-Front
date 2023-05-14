@@ -4,7 +4,7 @@ import CircleBoat from '../../Assets/img/CirclePhoto.png';
 
 const ReviewsForm = () => {
     return (
-        <section className='flex justify-between px-24 mb-28'>
+        <section className='flex justify-between px-[140px]  mb-28'>
             <div className="flex flex-col items-center w-[440px] border border-BorderInput px-6 py-11">
                 <h3 className='text-registerHead text-RegisterGrayBody'>Рассылка:</h3>
                 <form className='flex flex-col mt-[21px] w-full' action="">

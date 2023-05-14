@@ -18,7 +18,7 @@ const ReviewSwiper = ({slideContent}) => {
   return (
     <div>
         {/* <button > next </button> */}
-        <Slider {...settings}>
+        <Slider className='px-[140px]' {...settings}>
               {slideContent}
         </Slider>
     </div>
