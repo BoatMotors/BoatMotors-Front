@@ -1,13 +1,19 @@
-import React from 'react';
-import Header from '../../components/Header/Header';
+import React from "react";
+import BasketBox from "../../components/Basket/BasketBox";
+import BasketInfo from "../../components/Basket/BasketInfo";
+import ReviewsForm from "../../components/Reviews/ReviewsForm";
 
 const Basket = () => {
-    return (
-        <div>
-            <Header BigTxt={'MOTORSBOAT'} SubTxt={'лодки & моторы'} fontStyle={'nordinRegular'} />
-            Basket
-        </div>
-    );
-}
+  return (
+    <>
+    <Header BigTxt={'MOTORSBOAT'} SubTxt={'лодки & моторы'} fontStyle={'nordinRegular'} />
+    <div className="px-[140px]">
+      <BasketBox />
+      <BasketInfo />
+      <ReviewsForm />
+    </div>
+    </>
+  );
+};
 
 export default Basket;
