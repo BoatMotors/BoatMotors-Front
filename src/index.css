@@ -39,7 +39,15 @@ body {
 }
 .slick-dots{
     bottom: 50px !important;
+    left: 0 !important;
 }
+.slick-arrow{
+    color: red !important;
+    /* background: #000 !important; */
+    z-index: 5;
+    padding:  30px 0!important;
+}
+
 .slick-slide{
     /* width: 430px !important; */
     margin: 20px;
