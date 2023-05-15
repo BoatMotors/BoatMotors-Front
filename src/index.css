@@ -43,7 +43,6 @@ body {
 }
 .slick-arrow{
     color: red !important;
-    /* background: #000 !important; */
     z-index: 5;
     padding:  30px 0!important;
 }
