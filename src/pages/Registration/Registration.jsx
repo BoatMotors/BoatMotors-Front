@@ -1,6 +1,7 @@
 import React from 'react';
 import {style} from '../../utilits/style';
 import { icons } from '../../icons';
+import Header from '../../components/Header/Header';
 
 const Registration = () => {
 
@@ -9,6 +10,8 @@ const Registration = () => {
     }
 
     return (
+        <>
+        <Header BigTxt={'MOTORSBOAT'} SubTxt={'лодки & моторы'} fontStyle={'nordinRegular'} />
         <section className='flex w-screen items-center justify-center pt-32'>
             <div className="w-registerContainer">
                 <h2 className='text-registiration text-BoatBlack pb-16'>Регистрация</h2>
@@ -70,6 +73,7 @@ const Registration = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 }
 

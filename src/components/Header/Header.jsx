@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import headerImg from "../../Assets/img/BoatMoto.jpg";
 import { icons } from "../../icons";
 
@@ -9,10 +8,8 @@ const Header = ({BigTxt, SubTxt, fontStyle}) => {
       style={{ backgroundImage: `url(${headerImg})` }}
       className="w-screen h-screen bg-cover bg-no-repeat flex flex-col justify-end items-end"
     >
-        <div className="fixed top-0 z-10">
-          <Navbar />
-        </div>
-      <div className="w-screen h-screen flex flex-col items-center justify-center">
+        
+      <div className="w-screen h-screen mt-60 pt-100 flex flex-col items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className={`text-homeHead font-homeHeadText text-white  text-9xl/[200px] ${fontStyle}`}>
             {BigTxt ? BigTxt : "MOTORSBOAT"}

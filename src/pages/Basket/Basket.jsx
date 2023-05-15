@@ -5,11 +5,14 @@ import ReviewsForm from "../../components/Reviews/ReviewsForm";
 
 const Basket = () => {
   return (
+    <>
+    <Header BigTxt={'MOTORSBOAT'} SubTxt={'лодки & моторы'} fontStyle={'nordinRegular'} />
     <div className="px-[140px]">
       <BasketBox />
       <BasketInfo />
       <ReviewsForm />
     </div>
+    </>
   );
 };
 
