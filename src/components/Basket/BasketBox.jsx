@@ -33,6 +33,9 @@ function BasketBox() {
           </thead>
           <TableItems />
         </table>
+        <p className="text-[25px] text-RegisterGrayBody font-semibold mb-5 text-right">
+          Итого: 43 400 р.
+        </p>
       </div>
     </div>
   );
