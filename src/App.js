@@ -7,11 +7,11 @@ import Delivery from "./pages/Delivery/Delivery";
 import Registration from "./pages/Registration/Registration";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Order from "./pages/Order/Order";
 
 function App() {
   return (
     <div className="App w-screen">
-      
       <div className="">
         <Header />
         <Routes>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/order" element={<Order />} />
         </Routes>
         <Footer />
       </div>
