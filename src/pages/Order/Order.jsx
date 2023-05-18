@@ -1,5 +1,6 @@
 import React from "react";
 import BasketBox from "../../components/Basket/BasketBox";
+import AddCommentary from "../../components/Order/AddCommentary";
 import Buyer from "../../components/Order/Buyer";
 import DeliveryMethod from "../../components/Order/DeliveryMethod";
 import OrderLocatiom from "../../components/Order/OrderLocatiom";
@@ -19,6 +20,7 @@ function Order() {
           <PaymentMethod />
         </div>
       </div>
+      <AddCommentary />
     </div>
   );
 }
