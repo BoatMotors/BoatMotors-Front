@@ -1,6 +1,7 @@
 import React from "react";
 import BasketBox from "../../components/Basket/BasketBox";
 import Buyer from "../../components/Order/Buyer";
+import OrderLocatiom from "../../components/Order/OrderLocatiom";
 
 function Order() {
   return (
@@ -8,6 +9,7 @@ function Order() {
       <BasketBox />
       <div>
         <Buyer />
+        <OrderLocatiom />
       </div>
     </div>
   );
