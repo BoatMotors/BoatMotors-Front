@@ -14,19 +14,19 @@ function BasketBox() {
         <p className="text-[18px] text-RegisterGrayBody mb-[57px]">
           В корзине <b>1 товаров</b> на сумму <b>43 400 р.</b>
         </p>
-        <table class="table-auto w-full">
+        <table className="table-auto w-full">
           <thead className="border-b-[1px] border-b-RegisterGray ">
             <tr>
-              <th class="table-cell text-left text-[18px] font-semibold text-RegisterGray pb-5">
+              <th className="table-cell text-left text-[18px] font-semibold text-RegisterGray pb-5">
                 Изображение
               </th>
-              <th class="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
+              <th className="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
                 Название
               </th>
-              <th class="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
+              <th className="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
                 Кол-во
               </th>
-              <th class="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
+              <th className="table-cell text-left text-[18px] font-semibold text-RegisterGray ">
                 Цена за штуку
               </th>
             </tr>
