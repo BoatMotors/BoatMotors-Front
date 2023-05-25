@@ -3,7 +3,51 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("./Assets/fonts/gilroy/style.css");
 
 body {
     overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Nordin-Regular";
+    src: url("./Assets/fonts/nordin/Nordin Regular.otf");
+    src: url("./Assets/fonts/nordin/Nordin Regular.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nordin-Outline";
+    src: url("./Assets/fonts/nordin/Nordin Outline.ttf");
+    src: url("./Assets/fonts/nordin/Nordin Outline.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+.nordinRegular{
+    font-family: "Nordin-Regular";
+    font-size: 200px;
+}
+.gilroyRegular{
+    font-family: "Gilroy";
+}
+.swiper-wrapper{
+    transform: translate3d(52px, 39px, 0px) !important;
+}
+.slick-track{
+    padding-top: 60px;
+    /* transform: translate3d(-3456px, 39px, 0px) !important; */
+}
+.slick-dots{
+    bottom: 50px !important;
+    left: 0 !important;
+}
+.slick-arrow{
+    color: red !important;
+    z-index: 5;
+    padding:  30px 0!important;
+}
+
+.slick-slide{
+    /* width: 430px !important; */
+    margin: 20px;
 }
