@@ -6,16 +6,15 @@ import Contact from "./pages/Contact/Contact";
 import Delivery from "./pages/Delivery/Delivery";
 import Registration from "./pages/Registration/Registration";
 import Footer from "./components/Footer/Footer";
+import Order from "./pages/Order/Order";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./components/Navbar/Navbar";
 import ReviewPage from "./pages/Review";
 
-
 function App() {
   return (
     <div className="App w-screen">
-      
       <div className="">
       <div className="fixed top-0 z-10">
           <Navbar />
@@ -28,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/order" element={<Order />} />
         </Routes>
         <Footer/>
       </div>
