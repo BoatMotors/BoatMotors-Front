@@ -2,6 +2,7 @@ import React from "react";
 import BasketBox from "../../components/Basket/BasketBox";
 import BasketInfo from "../../components/Basket/BasketInfo";
 import ReviewsForm from "../../components/Reviews/ReviewsForm";
+import Header from './../../components/Header/Header'
 
 const Basket = () => {
   return (

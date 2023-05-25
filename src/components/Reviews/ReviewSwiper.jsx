@@ -1,6 +1,8 @@
 
 import React, { useRef } from 'react'
 import Slider from 'react-slick';
+import next from './../../Assets/icon/next.svg'
+import prev from './../../Assets/icon/prev.svg'
 
 const ReviewSwiper = ({slideContent}) => {
     const ref = useRef()
@@ -16,11 +18,12 @@ const ReviewSwiper = ({slideContent}) => {
       };
       // onClick={()=> {ref.current.prev()}}
   return (
-    <div>
-        {/* <button > next </button> */}
+    <div className='relative'>
+        <button className='absolute top-[290px] left-[-20px]'> <img src={prev} alt="" /> </button>
         <Slider className='px-[140px]' {...settings}>
               {slideContent}
         </Slider>
+        <button className='absolute top-[290px] right-[-20px]'> <img src={next} alt="" /> </button>
     </div>
   )
 }
